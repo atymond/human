@@ -1,0 +1,135 @@
+\documentclass{article}
+
+% BASE
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+
+\usepackage{geometry} %tmargin=3cm, bmargin=3cm, 
+\newgeometry{lmargin=3cm, rmargin=3cm, tmargin=2.8cm, bmargin=2.8cm}
+
+% INTERLINIA
+\linespread{1.3} %wartosć interlinii
+\usepackage{setspace}
+
+
+% POLSKIE NUMEROWANIE SEKCJI
+\makeatletter
+ \renewcommand\@seccntformat[1]{\csname the#1\endcsname.\quad}
+ \renewcommand\numberline[1]{#1.\hskip0.7em}
+\makeatother
+
+
+\setcounter{secnumdepth}{3} % sections are level 1
+\setcounter{tocdepth}{3} % table of contents depth
+
+
+\renewcommand{\figurename}{Rycina}
+
+
+% UML DIAGRAMS
+%\usepackage{tikz}
+%\usetikzlibrary{shapes}
+%\usetikzlibrary{arrows.meta}
+%\usepackage{tikz-uml}
+
+
+% DEFINE COLORS
+\usepackage{color}
+\definecolor{ziel}{RGB}{0, 80, 0}
+
+% ITEMKI
+\newenvironment{itemki}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+
+\usepackage{graphicx} % to use "include graphics"
+\usepackage{float} % to use "H" in figures
+%\usepackage{adjustbox}
+\usepackage{array} % to use "m" in tables
+
+
+\title{\Huge{Protesty na życzenie}\\ %\LARGE{Projekt prowadzenia działalności}
+}
+\author{\large{Ahmed Abdelkarim, Agata Cacko, Aleksandra Hernik}}
+\date{\large{27.05.2017}}
+
+
+\begin{document}
+\maketitle
+\vspace{2cm}
+\tableofcontents
+\newpage
+
+
+
+
+\section{Streszczenie}
+\begin{enumerate}
+% mogą to byś subsectiony, ale streszczenie powinno chyba być krótkie
+\item Charakterystyka firmy
+\item Prezentowana usługa % "informacje o produkcie"
+\item Rynek działania
+\item Sprzedaż i marketing
+\item Analiza procesu wytwórczego % wtf? ze jak to będziemy robić?
+\item Analiza finansowa
+\item Analiza ryzyka
+\end{enumerate}
+
+\section{Opis przedsięwzięcia}
+%2.	Opis przedsięwzięcia, jego zakres i uwarunkowania prawne, wybór (wraz z uzasadnieniem) formy prawnej, zespół projektowy
+% spółka tamta jedna jedyna dobra, z 5 tys. wkładu?
+
+\section{Analiza rynkowa przedsięwzięcia}
+\subsection{Cele organizacji}
+\subsection{Opis produktu}
+% Opis produktu/usługi, jego odrębność, wskazanie źródeł przewagi konkurencyjnej
+
+\subsection{Charakterystyka branży}
+% (analiza otoczenia i analiza konkurencyjna)
+% w sensie wszystko w otoczeniu
+\subsubsection{Otoczenie bliższe} % te inne firmy, które robią VR
+\subsubsection{Otoczenie dalsze} % ekonomia i polityka -> że jak spróbujemy to zrobić w Etiopii, to chyba nie wypali
+\subsection{Analiza SWOT}
+\subsection{Aspekty prawne}
+%Prawne aspekty rozwoju pomysłów i produktów w organizacji
+
+
+\section{Finansowanie}
+%Zarządzanie finansami przedsięwzięcia
+\subsection{Nakłady inwestycyjne i źródła finansowania}
+\subsection{Prognozy finansowe}
+%b.	Prognozy finansowe (min 2 wybrane elementy spośród omawianych na zajęciach metod i narzędzi analizy finansowej)
+
+
+\section{Ochrona prawna}
+\subsection{Podstawowe elementy ochrony prawnej pomysłów, produktów i usług}
+\subsection{Ochrona własności intelektualnej w organizacji}
+
+
+\section{Ograniczenia projektu}
+%a.	Wskazanie i oszacowanie ryzyka projektu
+
+
+\section{Załączniki}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
